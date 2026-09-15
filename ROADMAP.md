@@ -48,7 +48,7 @@
 | **[#3](https://github.com/mosip-asia/dpi-sandbox/issues/3)** | **Track 2: Foundational Identity** | Port Core MOSIP Identity & eSignet to Terraform modules (Turing approach) | `@parmar-m`, `@BossNP` | `18 Sep – 28 Sep 2026` | `P0 - Blocker` |
 | **[#4](https://github.com/mosip-asia/dpi-sandbox/issues/4)** | **Track 3: Trust Framework** | Package Thailand Trust Framework (VDR `did:web` & TIL) as OCI Helm Chart v0.1.0 | `@silanm` | `15 Sep – 25 Sep 2026` | `P0 - Blocker` |
 | **[#5](https://github.com/mosip-asia/dpi-sandbox/issues/5)** | **Track 4: Public Gov Wallet** | Package Inji Stack & Web Wallet PWA as OCI Helm Chart v0.1.0 | `@thassung`, `@silanm` | `18 Sep – 28 Sep 2026` | `P0 - Blocker` |
-| **[#6](https://github.com/mosip-asia/dpi-sandbox/issues/6)** | **Track 1 / Base Platform** | Setup NetBird Mesh Enrollment Key & Rancher Cluster Import Endpoint in dpi-base | `@BossNP` | `20 Sep – 30 Sep 2026` | `P1 - High` |
+| **[dpi-base#14](https://github.com/mosip-asia/dpi-base/issues/14)** | **Track 1 / Base Platform** | Setup NetBird Mesh Enrollment Key & Rancher Cluster Import Endpoint in dpi-base | `@BossNP` | `20 Sep – 30 Sep 2026` | `P1 - High` |
 
 ---
 
