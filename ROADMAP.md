@@ -41,14 +41,18 @@
 **Target Date:** September 30, 2026  
 **Objective:** Single-VM cloud deployment boots in < 15 minutes, S3 state is locked, and core identity/VC containers run reliably.
 
-| Issue | Track | Title | Assignee(s) | Schedule | Priority |
-|:---:|:---|:---|:---|:---:|:---:|
-| **[#1](https://github.com/mosip-asia/dpi-sandbox/issues/1)** | **Track 1: Cloud Infra** | Split VM/Kube substrate from MOSIP-infra via `sizes/hackathon.tfvars` | `@parmar-m`, `@BossNP` | `15 Sep – 22 Sep 2026` | `P0 - Blocker` |
-| **[#2](https://github.com/mosip-asia/dpi-sandbox/issues/2)** | **Track 1: Cloud Infra** | Setup centralized S3 remote state backend and DynamoDB locking in ait-mosip | `@parmar-m`, `@BossNP` | `15 Sep – 20 Sep 2026` | `P1 - High` |
-| **[#3](https://github.com/mosip-asia/dpi-sandbox/issues/3)** | **Track 2: Foundational Identity** | Port Core MOSIP Identity & eSignet to Terraform modules (Turing approach) | `@parmar-m`, `@BossNP` | `18 Sep – 28 Sep 2026` | `P0 - Blocker` |
-| **[#4](https://github.com/mosip-asia/dpi-sandbox/issues/4)** | **Track 3: Trust Framework** | Package Thailand Trust Framework (VDR `did:web` & TIL) as OCI Helm Chart v0.1.0 | `@silanm` | `15 Sep – 25 Sep 2026` | `P0 - Blocker` |
-| **[#5](https://github.com/mosip-asia/dpi-sandbox/issues/5)** | **Track 4: Public Gov Wallet** | Package Inji Stack & Web Wallet PWA as OCI Helm Chart v0.1.0 | `@thassung`, `@silanm` | `18 Sep – 28 Sep 2026` | `P0 - Blocker` |
-| **[dpi-base#14](https://github.com/mosip-asia/dpi-base/issues/14)** | **Track 1 / Base Platform** | Setup NetBird Mesh Enrollment Key & Rancher Cluster Import Endpoint in dpi-base | `@BossNP` | `20 Sep – 30 Sep 2026` | `P1 - High` |
+| Issue | Track | Title | Assignee(s) | Schedule | Status | Priority |
+|:---:|:---|:---|:---|:---:|:---:|:---:|
+| **[dpi-base#2](https://github.com/mosip-asia/dpi-base/issues/2)** | **Track 1 / Base Platform** | [Phase 0] GCP Organization Setup & Cloud Identity Free for `dpi.ait.ac.th` | `@akraradets` | `01 Sep – 07 Sep 2026` | `Done` | `P1 - High` |
+| **[dpi-base#3](https://github.com/mosip-asia/dpi-base/issues/3)** | **Track 1 / Base Platform** | [Phase 1] Foundation Management Plane (`dpi-mgmt`) & Cloud DNS | `@akraradets` | `07 Sep – 13 Sep 2026` | `Done` | `P1 - High` |
+| **[dpi-base#4](https://github.com/mosip-asia/dpi-base/issues/4)** | **Track 1 / Base Platform** | [Phase 2] Tier 1 Network Fabric (`base-vpn`) & NetBird Mesh VPN | `@akraradets` | `07 Sep – 13 Sep 2026` | `Done` | `P0 - Blocker` |
+| **[dpi-base#5](https://github.com/mosip-asia/dpi-base/issues/5)** | **Track 1 / Base Platform** | [Phase 3] Tier 2 Management Plane (`base-kube-ops`) & Rancher Community | `@BossNP` | `07 Sep – 25 Sep 2026` | `In Progress` | `P1 - High` |
+| **[#1](https://github.com/mosip-asia/dpi-sandbox/issues/1)** | **Track 1: Cloud Infra** | Split VM/Kube substrate from MOSIP-infra via `sizes/hackathon.tfvars` | `@parmar-m`, `@BossNP` | `15 Sep – 22 Sep 2026` | `Ready` | `P0 - Blocker` |
+| **[#2](https://github.com/mosip-asia/dpi-sandbox/issues/2)** | **Track 1: Cloud Infra** | Setup centralized S3 remote state backend and DynamoDB locking in ait-mosip | `@parmar-m`, `@BossNP` | `15 Sep – 20 Sep 2026` | `Ready` | `P1 - High` |
+| **[#3](https://github.com/mosip-asia/dpi-sandbox/issues/3)** | **Track 2: Foundational Identity** | Port Core MOSIP Identity & eSignet to Terraform modules (Turing approach) | `@parmar-m`, `@BossNP` | `18 Sep – 28 Sep 2026` | `Ready` | `P0 - Blocker` |
+| **[#4](https://github.com/mosip-asia/dpi-sandbox/issues/4)** | **Track 3: Trust Framework** | Package Thailand Trust Framework (VDR `did:web` & TIL) as OCI Helm Chart v0.1.0 | `@silanm` | `15 Sep – 25 Sep 2026` | `Ready` | `P0 - Blocker` |
+| **[#5](https://github.com/mosip-asia/dpi-sandbox/issues/5)** | **Track 4: Public Gov Wallet** | Package Inji Stack & Web Wallet PWA as OCI Helm Chart v0.1.0 | `@thassung`, `@silanm` | `18 Sep – 28 Sep 2026` | `Ready` | `P0 - Blocker` |
+| **[dpi-base#14](https://github.com/mosip-asia/dpi-base/issues/14)** | **Track 1 / Base Platform** | Setup NetBird Mesh Enrollment Key & Rancher Cluster Import Endpoint in dpi-base | `@BossNP` | `20 Sep – 30 Sep 2026` | `Ready` | `P1 - High` |
 
 ---
 
