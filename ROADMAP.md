@@ -50,7 +50,7 @@
 | **[#1](https://github.com/mosip-asia/dpi-sandbox/issues/1)** | **Track 1: Cloud Infra** | Split VM/Kube substrate from MOSIP-infra via `sizes/hackathon.tfvars` | `@parmar-m`, `@BossNP` | `15 Sep – 22 Sep 2026` | `Ready` | `P0 - Blocker` |
 | **[#2](https://github.com/mosip-asia/dpi-sandbox/issues/2)** | **Track 1: Cloud Infra** | Setup centralized S3 remote state backend and DynamoDB locking in ait-mosip | `@parmar-m`, `@BossNP` | `15 Sep – 20 Sep 2026` | `Ready` | `P1 - High` |
 | **[#3](https://github.com/mosip-asia/dpi-sandbox/issues/3)** | **Track 2: Foundational Identity** | Port Core MOSIP Identity & eSignet to Terraform modules (Turing approach) | `@parmar-m`, `@BossNP` | `18 Sep – 28 Sep 2026` | `Ready` | `P0 - Blocker` |
-| **[#4](https://github.com/mosip-asia/dpi-sandbox/issues/4)** | **Track 3: Trust Framework** | Package Thailand Trust Framework (VDR `did:web` & TIL) as OCI Helm Chart v0.1.0 | `@silanm` | `15 Sep – 25 Sep 2026` | `Ready` | `P0 - Blocker` |
+| **[dpi-trust#1](https://github.com/mosip-asia/dpi-trust/issues/1)** | **Track 3: Trust Framework** | Package Thailand Trust Framework (VDR `did:web` & TIL) as OCI Helm Chart v0.1.0 | `@silanm` | `15 Sep – 25 Sep 2026` | `Ready` | `P0 - Blocker` |
 | **[#5](https://github.com/mosip-asia/dpi-sandbox/issues/5)** | **Track 4: Public Gov Wallet** | Package Inji Stack & Web Wallet PWA as OCI Helm Chart v0.1.0 | `@thassung`, `@silanm` | `18 Sep – 28 Sep 2026` | `Ready` | `P0 - Blocker` |
 | **[dpi-base#14](https://github.com/mosip-asia/dpi-base/issues/14)** | **Track 1 / Base Platform** | Setup NetBird Mesh Enrollment Key & Rancher Cluster Import Endpoint in dpi-base | `@BossNP` | `20 Sep – 30 Sep 2026` | `Ready` | `P1 - High` |
 
@@ -64,7 +64,7 @@
 |:---:|:---|:---|:---|:---:|:---:|
 | **[#7](https://github.com/mosip-asia/dpi-sandbox/issues/7)** | **Track 1: Cloud Infra** | Automated Nightly TTL Cost Reaper & Baked Node Image (<5m boot) | `@parmar-m`, `@BossNP` | `01 Oct – 12 Oct 2026` | `P0 - Blocker` |
 | **[#8](https://github.com/mosip-asia/dpi-sandbox/issues/8)** | **Track 2: Foundational Identity** | JVM Memory Tuning (32GB RAM Target) & Dual eSignet Auth (Face PAD + Google OAuth) | `@parmar-m`, `@BossNP` | `05 Oct – 18 Oct 2026` | `P0 - Blocker` |
-| **[#9](https://github.com/mosip-asia/dpi-sandbox/issues/9)** | **Track 3: Trust Framework** | VCGA Trusted Issuers List (`registry.trust`) & Trust Admin Console (`console.trust`) | `@silanm` | `05 Oct – 20 Oct 2026` | `P0 - Blocker` |
+| **[dpi-trust#2](https://github.com/mosip-asia/dpi-trust/issues/2)** | **Track 3: Trust Framework** | VCGA Trusted Issuers List (`registry.trust`) & Trust Admin Console (`console.trust`) | `@silanm` | `05 Oct – 20 Oct 2026` | `P0 - Blocker` |
 | **[#10](https://github.com/mosip-asia/dpi-sandbox/issues/10)** | **Track 4: Public Gov Wallet** | Inji Verify (`verify.egov`) & Reference University Tenant Fixtures | `@thassung`, `@silanm` | `10 Oct – 24 Oct 2026` | `P0 - Blocker` |
 | **[#11](https://github.com/mosip-asia/dpi-sandbox/issues/11)** | **Track 5: Hackathon Gateway** | Citizen Registration Portal (`register.id`) & Scaffolding Virtual Hackathon Journey | `@thassung`, `@BossNP` | `12 Oct – 25 Oct 2026` | `P1 - High` |
 | **[#12](https://github.com/mosip-asia/dpi-sandbox/issues/12)** | **Milestone Demo** | Confirm & Execute October 2026 Closed-Loop Demo & Interoperability Validation | `@akraradets`, `@BossNP` | `20 Oct – 31 Oct 2026` | `P0 - Blocker` |
@@ -79,7 +79,7 @@
 |:---:|:---|:---|:---|:---:|:---:|
 | **[#13](https://github.com/mosip-asia/dpi-sandbox/issues/13)** | **Track 1: Cloud Infra** | Multi-Environment CI/CD Matrix & Automated State Drift Detection | `@parmar-m`, `@BossNP` | `01 Nov – 20 Nov 2026` | `P1 - High` |
 | **[#14](https://github.com/mosip-asia/dpi-sandbox/issues/14)** | **Track 2: Foundational Identity** | Stabilize `PROFILE=hackathon` & 100% Core Identity Code Freeze | `@parmar-m`, `@BossNP` | `15 Nov – 15 Dec 2026` | `P0 - Blocker` |
-| **[#15](https://github.com/mosip-asia/dpi-sandbox/issues/15)** | **Track 3: Trust Framework** | ETDA & DGA Standards Alignment & Verifier Handbook Documentation | `@silanm` | `15 Nov – 10 Dec 2026` | `P0 - Blocker` |
+| **[dpi-trust#3](https://github.com/mosip-asia/dpi-trust/issues/3)** | **Track 3: Trust Framework** | ETDA & DGA Standards Alignment & Verifier Handbook Documentation | `@silanm` | `15 Nov – 10 Dec 2026` | `P0 - Blocker` |
 | **[#16](https://github.com/mosip-asia/dpi-sandbox/issues/16)** | **Track 4: Public Gov Wallet** | Dynamic SVG Templates, Offline Credential Cache & Wallet Hardening | `@thassung`, `@silanm` | `20 Nov – 20 Dec 2026` | `P0 - Blocker` |
 | **[#17](https://github.com/mosip-asia/dpi-sandbox/issues/17)** | **Track 5: Hackathon Gateway** | Automated Team Namespace Provisioner (`team-01..20`) & Zero-K8s Starter Kits | `@BossNP`, `@thassung` | `01 Dec – 31 Dec 2026` | `P0 - Blocker` |
 
