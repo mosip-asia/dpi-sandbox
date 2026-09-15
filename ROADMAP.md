@@ -1,0 +1,105 @@
+# 🗺️ DPI Sandbox — 4-Month Engineering Roadmap
+
+> **Grant Activity 1.5:** Develop MOSIP and Inji VC Sandbox at AIT  
+> **Sponsor:** Bill & Melinda Gates Foundation (Outcome 0)  
+> **Project Board:** [**Project #14: dpi-sandbox**](https://github.com/orgs/mosip-asia/projects/14)  
+> **Final Handover:** **January 30, 2027**
+
+---
+
+## 📊 Overview of the 4-Month Lifecycle
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│               GATES FOUNDATION GRANT ACTIVITY 1.5 WORK BREAKDOWN (WBS)                 │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                        │
+│  [ Month 1: 1.5.1 - Baseline Setup ] (Target: 30 Sep 2026)                             │
+│  • Core Engine Baseline: Cloud VM, S3 remote state, vanilla MOSIP RDI & Inji charts.   │
+│  • Target: Substrate split, central remote state locking, OCI Helm packaging.          │
+│                                                                                        │
+│  [ Month 2: 1.5.2 - Lifecycle Transition & Demo ] (Target: 31 Oct 2026)                │
+│  • Cost Control & Trust Framework: Nightly TTL Cost Reaper, 32GB RAM tuning, VCGA TIL. │
+│  • Target: October 2026 Closed-Loop Demo across citizen enrollment to VC verification. │
+│                                                                                        │
+│  [ Month 3: 1.5.3 - Production Hardening & Code Freeze ] (Target: 31 Dec 2026)         │
+│  • Multi-Tenancy & Dev Tooling: Automated team provisioner (team-01..20), 100% freeze.│
+│  • Target: 3 Zero-K8s Starter Kits, dynamic SVG credentials, ETDA compliance audit.    │
+│                                                                                        │
+│  [ Month 4: 1.5.4 - Operational Sandbox & Gates Report ] (Target: 30 Jan 2027)         │
+│  • Production Verification & Handover: Automated 3-min smoke tests, 10-team dry run.   │
+│  • Target: Submission of Deliverable 1 Technical Report to Gates Foundation.           │
+│                                                                                        │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 📅 Milestones & Deliverables Directory
+
+### 🟢 Month 1 — Milestone 1.5.1: Baseline Setup
+**Target Date:** September 30, 2026  
+**Objective:** Single-VM cloud deployment boots in < 15 minutes, S3 state is locked, and core identity/VC containers run reliably.
+
+| Issue | Track | Title | Assignee(s) | Priority |
+|:---:|:---|:---|:---|:---:|
+| **[#1](https://github.com/mosip-asia/dpi-sandbox/issues/1)** | **Track 1: Cloud Infra** | Split VM/Kube substrate from MOSIP-infra via `sizes/hackathon.tfvars` | `@parmar-m`, `@BossNP` | `P0 - Blocker` |
+| **[#2](https://github.com/mosip-asia/dpi-sandbox/issues/2)** | **Track 1: Cloud Infra** | Setup centralized S3 remote state backend and DynamoDB locking in ait-mosip | `@parmar-m`, `@BossNP` | `P1 - High` |
+| **[#3](https://github.com/mosip-asia/dpi-sandbox/issues/3)** | **Track 2: Foundational Identity** | Port Core MOSIP Identity & eSignet to Terraform modules (Turing approach) | `@parmar-m`, `@BossNP` | `P0 - Blocker` |
+| **[#4](https://github.com/mosip-asia/dpi-sandbox/issues/4)** | **Track 3: Trust Framework** | Package Thailand Trust Framework (VDR `did:web` & TIL) as OCI Helm Chart v0.1.0 | `@silanm` | `P0 - Blocker` |
+| **[#5](https://github.com/mosip-asia/dpi-sandbox/issues/5)** | **Track 4: Public Gov Wallet** | Package Inji Stack & Web Wallet PWA as OCI Helm Chart v0.1.0 | `@thassung`, `@silanm` | `P0 - Blocker` |
+| **[#6](https://github.com/mosip-asia/dpi-sandbox/issues/6)** | **Track 1 / Base Platform** | Setup NetBird Mesh Enrollment Key & Rancher Cluster Import Endpoint in dpi-base | `@BossNP` | `P1 - High` |
+
+---
+
+### 🟡 Month 2 — Milestone 1.5.2: Lifecycle Transition & Demo
+**Target Date:** October 31, 2026  
+**Objective:** End-to-end issuance & OID4VP cross-verification validated against Layer-1 VCGA/VDR; Nightly Cost Reaper active ($0 waste); live demo executed.
+
+| Issue | Track | Title | Assignee(s) | Priority |
+|:---:|:---|:---|:---|:---:|
+| **[#7](https://github.com/mosip-asia/dpi-sandbox/issues/7)** | **Track 1: Cloud Infra** | Automated Nightly TTL Cost Reaper & Baked Node Image (<5m boot) | `@parmar-m`, `@BossNP` | `P0 - Blocker` |
+| **[#8](https://github.com/mosip-asia/dpi-sandbox/issues/8)** | **Track 2: Foundational Identity** | JVM Memory Tuning (32GB RAM Target) & Dual eSignet Auth (Face PAD + Google OAuth) | `@parmar-m`, `@BossNP` | `P0 - Blocker` |
+| **[#9](https://github.com/mosip-asia/dpi-sandbox/issues/9)** | **Track 3: Trust Framework** | VCGA Trusted Issuers List (`registry.trust`) & Trust Admin Console (`console.trust`) | `@silanm` | `P0 - Blocker` |
+| **[#10](https://github.com/mosip-asia/dpi-sandbox/issues/10)** | **Track 4: Public Gov Wallet** | Inji Verify (`verify.egov`) & Reference University Tenant Fixtures | `@thassung`, `@silanm` | `P0 - Blocker` |
+| **[#11](https://github.com/mosip-asia/dpi-sandbox/issues/11)** | **Track 5: Hackathon Gateway** | Citizen Registration Portal (`register.id`) & Scaffolding Virtual Hackathon Journey | `@thassung`, `@BossNP` | `P1 - High` |
+| **[#12](https://github.com/mosip-asia/dpi-sandbox/issues/12)** | **Milestone Demo** | Confirm & Execute October 2026 Closed-Loop Demo & Interoperability Validation | `@akraradets`, `@BossNP` | `P0 - Blocker` |
+
+---
+
+### 🔵 Month 3 — Milestone 1.5.3: Production Hardening & Code Freeze
+**Target Date:** December 31, 2026  
+**Objective:** 100% Code Freeze; automated multi-tenant isolation (`team-01..20`), dynamic SVG templates, and ETDA/DGA standards conformance.
+
+| Issue | Track | Title | Assignee(s) | Priority |
+|:---:|:---|:---|:---|:---:|
+| **[#13](https://github.com/mosip-asia/dpi-sandbox/issues/13)** | **Track 1: Cloud Infra** | Multi-Environment CI/CD Matrix & Automated State Drift Detection | `@parmar-m`, `@BossNP` | `P1 - High` |
+| **[#14](https://github.com/mosip-asia/dpi-sandbox/issues/14)** | **Track 2: Foundational Identity** | Stabilize `PROFILE=hackathon` & 100% Core Identity Code Freeze | `@parmar-m`, `@BossNP` | `P0 - Blocker` |
+| **[#15](https://github.com/mosip-asia/dpi-sandbox/issues/15)** | **Track 3: Trust Framework** | ETDA & DGA Standards Alignment & Verifier Handbook Documentation | `@silanm` | `P0 - Blocker` |
+| **[#16](https://github.com/mosip-asia/dpi-sandbox/issues/16)** | **Track 4: Public Gov Wallet** | Dynamic SVG Templates, Offline Credential Cache & Wallet Hardening | `@thassung`, `@silanm` | `P0 - Blocker` |
+| **[#17](https://github.com/mosip-asia/dpi-sandbox/issues/17)** | **Track 5: Hackathon Gateway** | Automated Team Namespace Provisioner (`team-01..20`) & Zero-K8s Starter Kits | `@BossNP`, `@thassung` | `P0 - Blocker` |
+
+---
+
+### 🟣 Month 4 — Milestone 1.5.4: Operational Sandbox Setup & Gates Report
+**Target Date:** January 30, 2027  
+**Objective:** Production-grade 3-min smoke tests pass 10/10; 10-team simulated dry run completed; official Deliverable 1 Technical Report submitted.
+
+| Issue | Track | Title | Assignee(s) | Priority |
+|:---:|:---|:---|:---|:---:|
+| **[#18](https://github.com/mosip-asia/dpi-sandbox/issues/18)** | **Track 1 & 2** | Automated 3-Minute Smoke Test Harness (`smoke-test.sh`) & Load Telemetry | `@parmar-m`, `@BossNP` | `P0 - Blocker` |
+| **[#19](https://github.com/mosip-asia/dpi-sandbox/issues/19)** | **Track 3 & 4** | Cryptographic Audit Logs & End-to-End VC/VP Interoperability Verification | `@silanm`, `@thassung` | `P0 - Blocker` |
+| **[#20](https://github.com/mosip-asia/dpi-sandbox/issues/20)** | **Track 5: Hackathon Gateway** | 10-Team Simulated Virtual Hackathon Dry Run & Teardown Verification | `@BossNP`, `@thassung` | `P0 - Blocker` |
+| **[#21](https://github.com/mosip-asia/dpi-sandbox/issues/21)** | **Grant Governance** | Finalize & Submit Deliverable 1 Technical Report to Gates Foundation | `@akraradets` | `P0 - Blocker` |
+
+---
+
+## 🎯 Track Ownership Directory
+
+| Track | Name | Lead(s) | Focus Area |
+|---|---|---|---|
+| **Track 1** | **Cloud Infra & GitOps Automation** | Mehul & K. Boss | Terraform modules, S3 remote state, DynamoDB locking, Nightly TTL Cost Reaper (<$30/mo), CI/CD runners. |
+| **Track 2** | **Foundational Identity & Citizen Onboarding** | Mehul & K. Boss | `sizes/hackathon.tfvars`, Keycloak, IDRepo, IDA, BioSDK, eSignet (Google OAuth + Webcam Face PAD), <1s secret pre-seeding. |
+| **Track 3** | **Thailand Trust Framework (VCGA & VDR)** | Sila | In-cluster VDR (`did:web`), VCGA Trusted Issuers List (TIL), W3C `StatusList2021` revocation, ETDA/DGA JSON-LD schemas. |
+| **Track 4** | **Public Gov Wallet & Credentials** | Nathas & Sila | Inji Web Wallet PWA (`wallet.egov`), Inji Certify (OID4VCI issuance), Inji Verify (OID4VP verification), dynamic SVG cards. |
+| **Track 5** | **Hackathon Gateway & Dev Toolkit** | Integration Track | Campaign Landing Page (`www.egov`), Citizen Registration (`register.id`), multi-tenant namespaces (`team-01..20`), Zero-K8s Starter Kits. |

@@ -120,6 +120,20 @@ All services are parameterized around your root domain (`${var.sandbox_domain}`)
 
 ---
 
+## 🗺️ Grant Milestones & 4-Month Roadmap
+
+The project delivers **Activity 1.5** under the Gates Foundation Ecosystem Grant across 4 sequential monthly milestones:
+
+* **Month 1 (Sep 2026) — Milestone 1.5.1: Baseline Setup:** Cloud VM substrate, centralized S3 state locking, vanilla MOSIP RDI & Inji container baseline.
+* **Month 2 (Oct 2026) — Milestone 1.5.2: Lifecycle Transition & Demo:** Nightly TTL Cost Reaper, 32GB RAM tuning, Layer-1 VCGA/VDR trust, October 2026 closed-loop demo.
+* **Month 3 (Dec 2026) — Milestone 1.5.3: Production Hardening & Code Freeze:** 100% Code Freeze, automated multi-tenant isolation (`team-01..20`), 3 Zero-K8s starter kits.
+* **Month 4 (Jan 2027) — Milestone 1.5.4: Operational Sandbox & Gates Report:** 3-minute smoke test harness (`smoke-test.sh`), 10-team simulated dry run, Deliverable 1 Technical Report handover.
+
+👉 **View Full WBS & Deliverable Directory:** [**`ROADMAP.md`**](ROADMAP.md)  
+👉 **Interactive Sprint Board:** [**Project #14: dpi-sandbox**](https://github.com/orgs/mosip-asia/projects/14)
+
+---
+
 ## 🤝 Contributing & Community
 
 Contributions are welcome! Please review [`CONTRIBUTING.md`](https://github.com/mosip-asia/.github/blob/main/CONTRIBUTING.md) in the organization `.github` repository for our Definition of Done (DoD) and PR lifecycle standards.
