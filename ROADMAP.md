@@ -41,14 +41,14 @@
 **Target Date:** September 30, 2026  
 **Objective:** Single-VM cloud deployment boots in < 15 minutes, S3 state is locked, and core identity/VC containers run reliably.
 
-| Issue | Track | Title | Assignee(s) | Priority |
-|:---:|:---|:---|:---|:---:|
-| **[#1](https://github.com/mosip-asia/dpi-sandbox/issues/1)** | **Track 1: Cloud Infra** | Split VM/Kube substrate from MOSIP-infra via `sizes/hackathon.tfvars` | `@parmar-m`, `@BossNP` | `P0 - Blocker` |
-| **[#2](https://github.com/mosip-asia/dpi-sandbox/issues/2)** | **Track 1: Cloud Infra** | Setup centralized S3 remote state backend and DynamoDB locking in ait-mosip | `@parmar-m`, `@BossNP` | `P1 - High` |
-| **[#3](https://github.com/mosip-asia/dpi-sandbox/issues/3)** | **Track 2: Foundational Identity** | Port Core MOSIP Identity & eSignet to Terraform modules (Turing approach) | `@parmar-m`, `@BossNP` | `P0 - Blocker` |
-| **[#4](https://github.com/mosip-asia/dpi-sandbox/issues/4)** | **Track 3: Trust Framework** | Package Thailand Trust Framework (VDR `did:web` & TIL) as OCI Helm Chart v0.1.0 | `@silanm` | `P0 - Blocker` |
-| **[#5](https://github.com/mosip-asia/dpi-sandbox/issues/5)** | **Track 4: Public Gov Wallet** | Package Inji Stack & Web Wallet PWA as OCI Helm Chart v0.1.0 | `@thassung`, `@silanm` | `P0 - Blocker` |
-| **[#6](https://github.com/mosip-asia/dpi-sandbox/issues/6)** | **Track 1 / Base Platform** | Setup NetBird Mesh Enrollment Key & Rancher Cluster Import Endpoint in dpi-base | `@BossNP` | `P1 - High` |
+| Issue | Track | Title | Assignee(s) | Schedule | Priority |
+|:---:|:---|:---|:---|:---:|:---:|
+| **[#1](https://github.com/mosip-asia/dpi-sandbox/issues/1)** | **Track 1: Cloud Infra** | Split VM/Kube substrate from MOSIP-infra via `sizes/hackathon.tfvars` | `@parmar-m`, `@BossNP` | `15 Sep – 22 Sep 2026` | `P0 - Blocker` |
+| **[#2](https://github.com/mosip-asia/dpi-sandbox/issues/2)** | **Track 1: Cloud Infra** | Setup centralized S3 remote state backend and DynamoDB locking in ait-mosip | `@parmar-m`, `@BossNP` | `15 Sep – 20 Sep 2026` | `P1 - High` |
+| **[#3](https://github.com/mosip-asia/dpi-sandbox/issues/3)** | **Track 2: Foundational Identity** | Port Core MOSIP Identity & eSignet to Terraform modules (Turing approach) | `@parmar-m`, `@BossNP` | `18 Sep – 28 Sep 2026` | `P0 - Blocker` |
+| **[#4](https://github.com/mosip-asia/dpi-sandbox/issues/4)** | **Track 3: Trust Framework** | Package Thailand Trust Framework (VDR `did:web` & TIL) as OCI Helm Chart v0.1.0 | `@silanm` | `15 Sep – 25 Sep 2026` | `P0 - Blocker` |
+| **[#5](https://github.com/mosip-asia/dpi-sandbox/issues/5)** | **Track 4: Public Gov Wallet** | Package Inji Stack & Web Wallet PWA as OCI Helm Chart v0.1.0 | `@thassung`, `@silanm` | `18 Sep – 28 Sep 2026` | `P0 - Blocker` |
+| **[#6](https://github.com/mosip-asia/dpi-sandbox/issues/6)** | **Track 1 / Base Platform** | Setup NetBird Mesh Enrollment Key & Rancher Cluster Import Endpoint in dpi-base | `@BossNP` | `20 Sep – 30 Sep 2026` | `P1 - High` |
 
 ---
 
@@ -56,14 +56,14 @@
 **Target Date:** October 31, 2026  
 **Objective:** End-to-end issuance & OID4VP cross-verification validated against Layer-1 VCGA/VDR; Nightly Cost Reaper active ($0 waste); live demo executed.
 
-| Issue | Track | Title | Assignee(s) | Priority |
-|:---:|:---|:---|:---|:---:|
-| **[#7](https://github.com/mosip-asia/dpi-sandbox/issues/7)** | **Track 1: Cloud Infra** | Automated Nightly TTL Cost Reaper & Baked Node Image (<5m boot) | `@parmar-m`, `@BossNP` | `P0 - Blocker` |
-| **[#8](https://github.com/mosip-asia/dpi-sandbox/issues/8)** | **Track 2: Foundational Identity** | JVM Memory Tuning (32GB RAM Target) & Dual eSignet Auth (Face PAD + Google OAuth) | `@parmar-m`, `@BossNP` | `P0 - Blocker` |
-| **[#9](https://github.com/mosip-asia/dpi-sandbox/issues/9)** | **Track 3: Trust Framework** | VCGA Trusted Issuers List (`registry.trust`) & Trust Admin Console (`console.trust`) | `@silanm` | `P0 - Blocker` |
-| **[#10](https://github.com/mosip-asia/dpi-sandbox/issues/10)** | **Track 4: Public Gov Wallet** | Inji Verify (`verify.egov`) & Reference University Tenant Fixtures | `@thassung`, `@silanm` | `P0 - Blocker` |
-| **[#11](https://github.com/mosip-asia/dpi-sandbox/issues/11)** | **Track 5: Hackathon Gateway** | Citizen Registration Portal (`register.id`) & Scaffolding Virtual Hackathon Journey | `@thassung`, `@BossNP` | `P1 - High` |
-| **[#12](https://github.com/mosip-asia/dpi-sandbox/issues/12)** | **Milestone Demo** | Confirm & Execute October 2026 Closed-Loop Demo & Interoperability Validation | `@akraradets`, `@BossNP` | `P0 - Blocker` |
+| Issue | Track | Title | Assignee(s) | Schedule | Priority |
+|:---:|:---|:---|:---|:---:|:---:|
+| **[#7](https://github.com/mosip-asia/dpi-sandbox/issues/7)** | **Track 1: Cloud Infra** | Automated Nightly TTL Cost Reaper & Baked Node Image (<5m boot) | `@parmar-m`, `@BossNP` | `01 Oct – 12 Oct 2026` | `P0 - Blocker` |
+| **[#8](https://github.com/mosip-asia/dpi-sandbox/issues/8)** | **Track 2: Foundational Identity** | JVM Memory Tuning (32GB RAM Target) & Dual eSignet Auth (Face PAD + Google OAuth) | `@parmar-m`, `@BossNP` | `05 Oct – 18 Oct 2026` | `P0 - Blocker` |
+| **[#9](https://github.com/mosip-asia/dpi-sandbox/issues/9)** | **Track 3: Trust Framework** | VCGA Trusted Issuers List (`registry.trust`) & Trust Admin Console (`console.trust`) | `@silanm` | `05 Oct – 20 Oct 2026` | `P0 - Blocker` |
+| **[#10](https://github.com/mosip-asia/dpi-sandbox/issues/10)** | **Track 4: Public Gov Wallet** | Inji Verify (`verify.egov`) & Reference University Tenant Fixtures | `@thassung`, `@silanm` | `10 Oct – 24 Oct 2026` | `P0 - Blocker` |
+| **[#11](https://github.com/mosip-asia/dpi-sandbox/issues/11)** | **Track 5: Hackathon Gateway** | Citizen Registration Portal (`register.id`) & Scaffolding Virtual Hackathon Journey | `@thassung`, `@BossNP` | `12 Oct – 25 Oct 2026` | `P1 - High` |
+| **[#12](https://github.com/mosip-asia/dpi-sandbox/issues/12)** | **Milestone Demo** | Confirm & Execute October 2026 Closed-Loop Demo & Interoperability Validation | `@akraradets`, `@BossNP` | `20 Oct – 31 Oct 2026` | `P0 - Blocker` |
 
 ---
 
@@ -71,13 +71,13 @@
 **Target Date:** December 31, 2026  
 **Objective:** 100% Code Freeze; automated multi-tenant isolation (`team-01..20`), dynamic SVG templates, and ETDA/DGA standards conformance.
 
-| Issue | Track | Title | Assignee(s) | Priority |
-|:---:|:---|:---|:---|:---:|
-| **[#13](https://github.com/mosip-asia/dpi-sandbox/issues/13)** | **Track 1: Cloud Infra** | Multi-Environment CI/CD Matrix & Automated State Drift Detection | `@parmar-m`, `@BossNP` | `P1 - High` |
-| **[#14](https://github.com/mosip-asia/dpi-sandbox/issues/14)** | **Track 2: Foundational Identity** | Stabilize `PROFILE=hackathon` & 100% Core Identity Code Freeze | `@parmar-m`, `@BossNP` | `P0 - Blocker` |
-| **[#15](https://github.com/mosip-asia/dpi-sandbox/issues/15)** | **Track 3: Trust Framework** | ETDA & DGA Standards Alignment & Verifier Handbook Documentation | `@silanm` | `P0 - Blocker` |
-| **[#16](https://github.com/mosip-asia/dpi-sandbox/issues/16)** | **Track 4: Public Gov Wallet** | Dynamic SVG Templates, Offline Credential Cache & Wallet Hardening | `@thassung`, `@silanm` | `P0 - Blocker` |
-| **[#17](https://github.com/mosip-asia/dpi-sandbox/issues/17)** | **Track 5: Hackathon Gateway** | Automated Team Namespace Provisioner (`team-01..20`) & Zero-K8s Starter Kits | `@BossNP`, `@thassung` | `P0 - Blocker` |
+| Issue | Track | Title | Assignee(s) | Schedule | Priority |
+|:---:|:---|:---|:---|:---:|:---:|
+| **[#13](https://github.com/mosip-asia/dpi-sandbox/issues/13)** | **Track 1: Cloud Infra** | Multi-Environment CI/CD Matrix & Automated State Drift Detection | `@parmar-m`, `@BossNP` | `01 Nov – 20 Nov 2026` | `P1 - High` |
+| **[#14](https://github.com/mosip-asia/dpi-sandbox/issues/14)** | **Track 2: Foundational Identity** | Stabilize `PROFILE=hackathon` & 100% Core Identity Code Freeze | `@parmar-m`, `@BossNP` | `15 Nov – 15 Dec 2026` | `P0 - Blocker` |
+| **[#15](https://github.com/mosip-asia/dpi-sandbox/issues/15)** | **Track 3: Trust Framework** | ETDA & DGA Standards Alignment & Verifier Handbook Documentation | `@silanm` | `15 Nov – 10 Dec 2026` | `P0 - Blocker` |
+| **[#16](https://github.com/mosip-asia/dpi-sandbox/issues/16)** | **Track 4: Public Gov Wallet** | Dynamic SVG Templates, Offline Credential Cache & Wallet Hardening | `@thassung`, `@silanm` | `20 Nov – 20 Dec 2026` | `P0 - Blocker` |
+| **[#17](https://github.com/mosip-asia/dpi-sandbox/issues/17)** | **Track 5: Hackathon Gateway** | Automated Team Namespace Provisioner (`team-01..20`) & Zero-K8s Starter Kits | `@BossNP`, `@thassung` | `01 Dec – 31 Dec 2026` | `P0 - Blocker` |
 
 ---
 
@@ -85,12 +85,12 @@
 **Target Date:** January 30, 2027  
 **Objective:** Production-grade 3-min smoke tests pass 10/10; 10-team simulated dry run completed; official Deliverable 1 Technical Report submitted.
 
-| Issue | Track | Title | Assignee(s) | Priority |
-|:---:|:---|:---|:---|:---:|
-| **[#18](https://github.com/mosip-asia/dpi-sandbox/issues/18)** | **Track 1 & 2** | Automated 3-Minute Smoke Test Harness (`smoke-test.sh`) & Load Telemetry | `@parmar-m`, `@BossNP` | `P0 - Blocker` |
-| **[#19](https://github.com/mosip-asia/dpi-sandbox/issues/19)** | **Track 3 & 4** | Cryptographic Audit Logs & End-to-End VC/VP Interoperability Verification | `@silanm`, `@thassung` | `P0 - Blocker` |
-| **[#20](https://github.com/mosip-asia/dpi-sandbox/issues/20)** | **Track 5: Hackathon Gateway** | 10-Team Simulated Virtual Hackathon Dry Run & Teardown Verification | `@BossNP`, `@thassung` | `P0 - Blocker` |
-| **[#21](https://github.com/mosip-asia/dpi-sandbox/issues/21)** | **Grant Governance** | Finalize & Submit Deliverable 1 Technical Report to Gates Foundation | `@akraradets` | `P0 - Blocker` |
+| Issue | Track | Title | Assignee(s) | Schedule | Priority |
+|:---:|:---|:---|:---|:---:|:---:|
+| **[#18](https://github.com/mosip-asia/dpi-sandbox/issues/18)** | **Track 1 & 2** | Automated 3-Minute Smoke Test Harness (`smoke-test.sh`) & Load Telemetry | `@parmar-m`, `@BossNP` | `01 Jan – 12 Jan 2027` | `P0 - Blocker` |
+| **[#19](https://github.com/mosip-asia/dpi-sandbox/issues/19)** | **Track 3 & 4** | Cryptographic Audit Logs & End-to-End VC/VP Interoperability Verification | `@silanm`, `@thassung` | `05 Jan – 18 Jan 2027` | `P0 - Blocker` |
+| **[#20](https://github.com/mosip-asia/dpi-sandbox/issues/20)** | **Track 5: Hackathon Gateway** | 10-Team Simulated Virtual Hackathon Dry Run & Teardown Verification | `@BossNP`, `@thassung` | `12 Jan – 22 Jan 2027` | `P0 - Blocker` |
+| **[#21](https://github.com/mosip-asia/dpi-sandbox/issues/21)** | **Grant Governance** | Finalize & Submit Deliverable 1 Technical Report to Gates Foundation | `@akraradets` | `15 Jan – 30 Jan 2027` | `P0 - Blocker` |
 
 ---
 
