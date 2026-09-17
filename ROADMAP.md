@@ -50,8 +50,9 @@
 | **[#1](https://github.com/mosip-asia/dpi-sandbox/issues/1)** | **Track 1: Cloud Infra** | Split VM/Kube substrate from MOSIP-infra via `sizes/hackathon.tfvars` | `@parmar-m`, `@BossNP` | `15 Sep – 22 Sep 2026` | `Ready` | `P0 - Blocker` |
 | **[#2](https://github.com/mosip-asia/dpi-sandbox/issues/2)** | **Track 1: Cloud Infra** | Setup centralized S3 remote state backend and DynamoDB locking in ait-mosip | `@parmar-m`, `@BossNP` | `15 Sep – 20 Sep 2026` | `Ready` | `P1 - High` |
 | **[#3](https://github.com/mosip-asia/dpi-sandbox/issues/3)** | **Track 2: Foundational Identity** | Port Core MOSIP Identity & eSignet to Terraform modules (Turing approach) | `@parmar-m`, `@BossNP` | `18 Sep – 28 Sep 2026` | `Ready` | `P0 - Blocker` |
+| **[dpi-nationalid#1](https://github.com/mosip-asia/dpi-nationalid/issues/1)** | **Track 2: National ID Issuer** | [DOPA] Deploy National ID Credential Issuer (Inji Certify) & Reference Verifier Example | `@thassung`, `@silanm` | `18 Sep – 28 Sep 2026` | `Ready` | `P0 - Blocker` |
 | **[dpi-trust#1](https://github.com/mosip-asia/dpi-trust/issues/1)** | **Track 3: Trust Framework** | Package Thailand Trust Framework (VDR `did:web` & TIL) as OCI Helm Chart v0.1.0 | `@silanm` | `15 Sep – 25 Sep 2026` | `Ready` | `P0 - Blocker` |
-| **[#5](https://github.com/mosip-asia/dpi-sandbox/issues/5)** | **Track 4: Public Gov Wallet** | Package Inji Stack & Web Wallet PWA as OCI Helm Chart v0.1.0 | `@thassung`, `@silanm` | `18 Sep – 28 Sep 2026` | `Ready` | `P0 - Blocker` |
+| **[dpi-wallet#1](https://github.com/mosip-asia/dpi-wallet/issues/1)** | **Track 4: Public Gov Wallet** | Package Inji Stack & Web Wallet PWA as OCI Helm Chart v0.1.0 | `@thassung` | `18 Sep – 28 Sep 2026` | `Ready` | `P0 - Blocker` |
 | **[dpi-base#14](https://github.com/mosip-asia/dpi-base/issues/14)** | **Track 1 / Base Platform** | Setup NetBird Mesh Enrollment Key & Rancher Cluster Import Endpoint in dpi-base | `@BossNP` | `20 Sep – 30 Sep 2026` | `Ready` | `P1 - High` |
 
 ---
@@ -80,7 +81,7 @@
 | **[#13](https://github.com/mosip-asia/dpi-sandbox/issues/13)** | **Track 1: Cloud Infra** | Multi-Environment CI/CD Matrix & Automated State Drift Detection | `@parmar-m`, `@BossNP` | `01 Nov – 20 Nov 2026` | `P1 - High` |
 | **[#14](https://github.com/mosip-asia/dpi-sandbox/issues/14)** | **Track 2: Foundational Identity** | Stabilize `PROFILE=hackathon` & 100% Core Identity Code Freeze | `@parmar-m`, `@BossNP` | `15 Nov – 15 Dec 2026` | `P0 - Blocker` |
 | **[dpi-trust#3](https://github.com/mosip-asia/dpi-trust/issues/3)** | **Track 3: Trust Framework** | ETDA & DGA Standards Alignment & Verifier Handbook Documentation | `@silanm` | `15 Nov – 10 Dec 2026` | `P0 - Blocker` |
-| **[#16](https://github.com/mosip-asia/dpi-sandbox/issues/16)** | **Track 4: Public Gov Wallet** | Dynamic SVG Templates, Offline Credential Cache & Wallet Hardening | `@thassung`, `@silanm` | `20 Nov – 20 Dec 2026` | `P0 - Blocker` |
+| **[dpi-wallet#2](https://github.com/mosip-asia/dpi-wallet/issues/2)** | **Track 4: Public Gov Wallet** | Dynamic SVG Templates, Offline Credential Cache & Wallet Hardening | `@thassung` | `20 Nov – 20 Dec 2026` | `P0 - Blocker` |
 | **[#17](https://github.com/mosip-asia/dpi-sandbox/issues/17)** | **Track 5: Hackathon Gateway** | Automated Team Namespace Provisioner (`team-01..20`) & Zero-K8s Starter Kits | `@BossNP`, `@thassung` | `01 Dec – 31 Dec 2026` | `P0 - Blocker` |
 
 ---
@@ -103,7 +104,7 @@
 | Track | Name | Lead(s) | Focus Area |
 |---|---|---|---|
 | **Track 1** | **Cloud Infra & GitOps Automation** | Mehul & K. Boss | Terraform modules, S3 remote state, DynamoDB locking, Nightly TTL Cost Reaper (<$30/mo), CI/CD runners. |
-| **Track 2** | **Foundational Identity & Citizen Onboarding** | Mehul & K. Boss | `sizes/hackathon.tfvars`, Keycloak, IDRepo, IDA, BioSDK, eSignet (Google OAuth + Webcam Face PAD), <1s secret pre-seeding. |
-| **Track 3** | **Thailand Trust Framework (VCGA & VDR)** | Sila | In-cluster VDR (`did:web`), VCGA Trusted Issuers List (TIL), W3C `StatusList2021` revocation, ETDA/DGA JSON-LD schemas. |
-| **Track 4** | **Public Gov Wallet & Credentials** | Nathas & Sila | Inji Web Wallet PWA (`wallet.egov`), Inji Certify (OID4VCI issuance), Inji Verify (OID4VP verification), dynamic SVG cards. |
+| **Track 2** | **Foundational Identity & National ID Issuer** | Mehul & K. Boss | `sizes/hackathon.tfvars`, Keycloak, IDRepo, IDA, BioSDK, eSignet (Webcam Face PAD), Inji Certify DOPA issuer (`dpi-nationalid`). |
+| **Track 3** | **Thailand Trust Framework (VCGA & VDR)** | Sila | In-cluster VDR (`did:web`), VCGA Trusted Issuers List (TIL), W3C `StatusList2021` revocation, ETDA/DGA JSON-LD schemas (`dpi-trust`). |
+| **Track 4** | **Public Gov Wallet & Credentials** | Nathas & Sila | Citizen Inji Web Wallet PWA (`dpi-wallet` at `wallet.egov`), dynamic SVG cards, Inji Verify (`verify.egov`), zero-phone-home verification. |
 | **Track 5** | **Hackathon Gateway & Dev Toolkit** | Integration Track | Campaign Landing Page (`www.egov`), Citizen Registration (`register.id`), multi-tenant namespaces (`team-01..20`), Zero-K8s Starter Kits. |
